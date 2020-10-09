@@ -114,7 +114,7 @@ class Game
             until valid_move
                 @board.show_board
                 puts "It's #{current_player.name}'s turn.'"
-                puts "Where would you like to make your move?"
+                puts "Where would you like to make your move?\n\n"
                 position = gets.chomp
                 valid_move = true if @board.is_move_valid?(position)
             end
