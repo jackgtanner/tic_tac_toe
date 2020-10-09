@@ -1,1 +1,0 @@
-puts board.board_display
